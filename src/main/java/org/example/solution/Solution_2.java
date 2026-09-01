@@ -1,4 +1,4 @@
-package org.example;
+package org.example.solution;
 
 public class Solution_2 {
     public int solution(int num1, int num2) {

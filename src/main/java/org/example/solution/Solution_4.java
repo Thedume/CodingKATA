@@ -1,4 +1,4 @@
-package org.example;
+package org.example.solution;
 
 public class Solution_4 {
     public int solution(int age) {
