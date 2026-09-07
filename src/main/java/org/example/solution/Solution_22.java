@@ -1,14 +1,24 @@
 package org.example.solution;
 
 public class Solution_22 {
-    public long solution(int a, int b) {
-        long answer;
+    public int solution(int num) {
+        long n = num;
+        int count = 0;
 
-        if (b > a)
-            answer = (((long) b * (b + 1)) - ((long) a * (a - 1))) / 2;
-        else
-            answer = (((long) a * (a + 1)) - ((long) b * (b - 1))) / 2;
+        while (n != 1) {
+            if (count == 500) {
+                return -1;
+            }
 
-        return answer;
+            if (n % 2 == 0) {
+                n /= 2;
+            } else {
+                n = n * 3 + 1;
+            }
+
+            count++;
+        }
+
+        return count;
     }
 }
