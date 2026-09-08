@@ -1,7 +1,5 @@
 package org.example.solution;
 
-import java.util.Arrays;
-
 public class Solution_28 {
 
     public static int solution(int[] numbers){
